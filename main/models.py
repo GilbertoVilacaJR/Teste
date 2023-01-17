@@ -10,4 +10,4 @@ class Aluno(models.Model):
     description=models.TextField()
 
     def __str__(self):
-        return self.nome
+        return self.telefone
